@@ -1,4 +1,29 @@
-.Software-Developer {
-    background-color: darkgreen;
+/*Universal Selector */
+
+*{
+background-color: rgb(218, 195, 211);
+}
+
+/*Attribute Selector */
+
+
+
+/*Element Selector */
+
+/*Class Selector */
+
+.section-font {
     font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.main-section {
+    border: 3px dashed purple;
+    text-align: center; 
+}
+
+/*Image Selector */
+.profile-picture { 
+    width: 100px;
+    border-radius: 50px;
 }
